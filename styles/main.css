@@ -1648,3 +1648,16 @@ td {
         font-size: 15px;
       }
     
+       <style type="text/css">
+ .user-card {padding: 32px; box-shadow: 0 1px 3px 0 rgba(0,0,0, 1),0 1px 2px 0 rgba(0,0,0,.06)!important;tex align: center; margin: 32px; border-radius: 8px; background: #ffe8cc;)
+ user-img border-radius: 50%!important width: 80px; margin: 24px auto display: inline-block;)
+ .username{ font-size: 20px;)
+ .description margin: 32px 0; font-size 14px; color: #ffa94d;)
+ </style>
+ <div class="user-card">
+ < img class="user-img"src="https: /fehey.com/images/avatar. png?v=1554801547216"/>
+<div classusername">Lapsy<div>
+ <div class="description">Think a little more, grow a little more</div>
+ </div>
+
+    

@@ -1,202 +1,241 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>思考 | Lapsy</title>
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1556716894347">
+<meta name="description" content="多一点思考，多一点成长">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1556716984233">
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139225386-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139225386-1');
-</script>
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://lapsy.xyz">
-  <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1556716894347" alt="">
-  </a>
-  <h1 class="site-title">
-    Lapsy
-  </h1>
-  <p class="site-description">
-    多一点思考，多一点成长
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/jcw01" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/zjfy1231" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.weibo.com/6261205684/profile?topnav=1&amp;wvr=6&amp;is_all=1" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.zhihu.com/people/jin-cheng-wei-89-93/activities" target="_blank">
-          <i class="fab fa-zhihu"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.facebook.com/profile.php?id=100010774247229" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lapsy.xyz">
+        <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1556716984233" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lapsy.xyz">
+        <h1 class="site-title">Lapsy</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
         <div class="current-tag-container">
-            <h2 class="title">
-                标签：#思考
-            </h2> 
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 思考
+          </h2> 
         </div>
-        <div class="post-container">
-  
-    <article class="post">
+
+        
+<section class="post-item">
+    <div class="content">
       <a href="https://lapsy.xyz/post/April-summary">
         <h2 class="post-title">🈷4 月总结📋</h2>
       </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-05-01 ·
-        </time>
-        
-          <a href="https://lapsy.xyz/tag/aQ4vCqoUE" class="post-tag">
-            # 思考
-          </a>
-        
-          <a href="https://lapsy.xyz/tag/_6sJ3jJud" class="post-tag">
-            # 记录
-          </a>
-        
-      </div>
-      
-        <a href="https://lapsy.xyz/post/April-summary" class="post-feature-image" style="background-image: url('https://i.loli.net/2019/05/01/5cc99ac0cc578.jpg')">
-        </a>
-      
       <div class="post-abstract">
         
-      </di>
-    </article>
-  
-    <article class="post">
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-05-01</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://lapsy.xyz/tag/aQ4vCqoUE">
+                思考
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://lapsy.xyz/tag/_6sJ3jJud">
+                记录
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://lapsy.xyz/post/April-summary">
+        <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/01/5cc99ac0cc578.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
       <a href="https://lapsy.xyz/post/guan-yu-she-jiao-yu-gong-gong-hua-ti">
         <h2 class="post-title">关于社交与公共话题</h2>
       </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-04-29 ·
-        </time>
-        
-          <a href="https://lapsy.xyz/tag/aQ4vCqoUE" class="post-tag">
-            # 思考
-          </a>
-        
-          <a href="https://lapsy.xyz/tag/_6sJ3jJud" class="post-tag">
-            # 记录
-          </a>
-        
-      </div>
-      
-        <a href="https://lapsy.xyz/post/guan-yu-she-jiao-yu-gong-gong-hua-ti" class="post-feature-image" style="background-image: url('https://i.loli.net/2019/04/29/5cc716593d966.jpg')">
-        </a>
-      
       <div class="post-abstract">
         
-      </di>
-    </article>
-  
-    <article class="post">
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-04-29</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://lapsy.xyz/tag/aQ4vCqoUE">
+                思考
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://lapsy.xyz/tag/_6sJ3jJud">
+                记录
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://lapsy.xyz/post/guan-yu-she-jiao-yu-gong-gong-hua-ti">
+        <div class="feature-container" style="background-image: url('https://i.loli.net/2019/04/29/5cc716593d966.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
       <a href="https://lapsy.xyz/post/feng-liao-bei-fu-16-yi-yu-sun-rui-xing-jing-ran-huan-xiang-shang-shi">
         <h2 class="post-title">疯了？背负16 亿亏损，瑞幸竟然还想上市？</h2>
       </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-04-29 ·
-        </time>
-        
-          <a href="https://lapsy.xyz/tag/aQ4vCqoUE" class="post-tag">
-            # 思考
-          </a>
-        
-      </div>
-      
-        <a href="https://lapsy.xyz/post/feng-liao-bei-fu-16-yi-yu-sun-rui-xing-jing-ran-huan-xiang-shang-shi" class="post-feature-image" style="background-image: url('https://i.loli.net/2019/04/29/5cc6bed6c9246.jpg')">
-        </a>
-      
       <div class="post-abstract">
         
-      </di>
-    </article>
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-04-29</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://lapsy.xyz/tag/aQ4vCqoUE">
+                思考
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://lapsy.xyz/post/feng-liao-bei-fu-16-yi-yu-sun-rui-xing-jing-ran-huan-xiang-shang-shi">
+        <div class="feature-container" style="background-image: url('https://i.loli.net/2019/04/29/5cc6bed6c9246.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
   
 </div>
 
-        <div class="pagination-container">
-  
-  
-</div>
 
-        <div class="site-footer">
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">多一点思考，多一点成长</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+
   </body>
 </html>

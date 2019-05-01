@@ -1,167 +1,239 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>AR7 | Lapsy</title>
 <meta name="description" content="多一点思考，多一点成长">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1556717049463">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1556716984233">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://lapsy.xyz">
-        <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1556716984233" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://lapsy.xyz">
-        <h1 class="site-title">Lapsy</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://lapsy.xyz">Lapsy</a></h3>
   </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> AR7
-          </h2> 
-        </div>
-
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://lapsy.xyz/post/visual-stripes-wallpaper">
-        <h2 class="post-title">Visual Stripes Wallpaper</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-05-01</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
+          <li>
             
-              <a href="https://lapsy.xyz/tag/wallpaper">
-                壁纸
-                
-                  ，
-                
+              <a href="/" class="menu">
+                首页
               </a>
             
-              <a href="https://lapsy.xyz/tag/AR7-Wallpaer">
-                AR7
-                
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
               </a>
             
-          </span>
+          </li>
         
-      </div>
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
     </div>
-    
-      <a href="https://lapsy.xyz/post/visual-stripes-wallpaper">
-        <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/01/5cc87458230ac.jpg')">
-        </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <h2 class="current-tag">标签: AR7</h2>
+          
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://lapsy.xyz/post/visual-stripes-wallpaper">Visual Stripes Wallpaper</a>
+    </h2>
+    <p class="article-meta">
+      2019-05-01
+      
+        <a href="https://lapsy.xyz/tag/wallpaper" class="badge ">
+          壁纸
+        </a>
+      
+        <a href="https://lapsy.xyz/tag/AR7-Wallpaer" class="badge success">
+          AR7
+        </a>
+      
+    </p>
+    <p class="text-lead">
+      
+    </p>
+    <div class="row">
+      <a href="https://lapsy.xyz/post/visual-stripes-wallpaper" class="readmore-link">
+        <button>
+          Read More
+        </button>
       </a>
-    
-  </section>
+    </div>
+  </article>
 
 
-<div class="pagination-container">
+        </div>
+        <div class="row flex-edges">
   
   
 </div>
 
-
       </div>
-
-      <div class="site-footer">
-  <div class="slogan">多一点思考，多一点成长</div>
-  <div class="social-container">
-    
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://lapsy.xyz/images/avatar.png?v=1556717049463" class="no-responsive avatar">
+    <div class="text-muted">多一点思考，多一点成长</div>
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/April-summary">🈷4 月总结📋</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/visual-stripes-wallpaper">Visual Stripes Wallpaper</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/Care abou  your health">年轻人，注意身体</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/guan-yu-she-jiao-yu-gong-gong-hua-ti">关于社交与公共话题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/vlog-jia-zi-mu-tai-ma-fan-bu-fang-shi-shi-zhe-ge-zi-dong-jia-zi-mu-gong-ju">Vlog 加字幕太麻烦，不妨试试这个自动加字幕工具</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/feng-liao-bei-fu-16-yi-yu-sun-rui-xing-jing-ran-huan-xiang-shang-shi">疯了？背负16 亿亏损，瑞幸竟然还想上市？</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/hello-lapsy">Hello Lapsy</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lapsy.xyz/post/about">关于</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://lapsy.xyz/tag/aQ4vCqoUE" class="badge ">
+          思考
+        </a>
+      
+        <a href="https://lapsy.xyz/tag/_6sJ3jJud" class="badge secondary">
+          记录
+        </a>
+      
+        <a href="https://lapsy.xyz/tag/wallpaper" class="badge secondary">
+          壁纸
+        </a>
+      
+        <a href="https://lapsy.xyz/tag/AR7-Wallpaer" class="badge secondary">
+          AR7
+        </a>
+      
+        <a href="https://lapsy.xyz/tag/Q_Eym9CWd" class="badge warning">
+          App
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  </div>
 </div>
 
-
     </div>
-    <script type="application/javascript">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
 
 hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
 </script>
 

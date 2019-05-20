@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lapsy.xyz</id>
     <title>Lapsy</title>
-    <updated>2019-05-20T07:09:55.452Z</updated>
+    <updated>2019-05-20T07:12:16.063Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lapsy.xyz"/>
     <link rel="self" href="https://lapsy.xyz/atom.xml"/>
@@ -22,7 +22,7 @@
 <h2 id="搜索好习惯必须有">搜索好习惯，必须有</h2>
 <p>磨刀不误砍柴工，在真正接触实质的搜索技巧之前我们先做一点“磨刀”工作——<strong>三个搜索小习惯</strong></p>
 <p>1.<strong>用英文搜索</strong>:我们为了搜索就是为了找到更准确和权威的资料，用英文搜索能够把检索的范围扩展到全世界各地。同时用因为搜索能够避免因为英译过来，资料表达的差距而导致搜索结果的偏差。</p>
-<p>2.<strong>使用靠谱的搜索引擎</strong>：工欲善其事，必先利器。在单纯的浏览器搜索引擎方面，我个人推荐**<a href="https://www.google.co">谷歌</a><strong>、</strong><a href="https://duckduckgo.com/">DuckDuckGo</a><strong>、</strong><a href="https://mijisou.com/">秘迹</a>**。 另外在其他领域可以选择更为专业的搜索源，比如去查找字体可以去<a href="http://www.qiuziti.com/">求字体</a>和<a href="https://www.likefont.com/">识字体</a>;查开发编程电子书可以去<a href="https://love2.io/">Love2</a>……</p>
+<p>2.<strong>使用靠谱的搜索引擎</strong>：工欲善其事，必先利器。在单纯的浏览器搜索引擎方面，我个人推荐<a href="https://www.google.co">谷歌</a>、<a href="https://duckduckgo.com/">DuckDuckGo</a>、<a href="https://mijisou.com/">秘迹</a>。 另外在其他领域可以选择更为专业的搜索源，比如去查找字体可以去<a href="http://www.qiuziti.com/">求字体</a>和<a href="https://www.likefont.com/">识字体</a>;查开发编程电子书可以去<a href="https://love2.io/">Love2</a>……</p>
 <p>3.<strong>官网网站和文档更靠谱</strong>:在写一些正式的文章需要一些较为正式的文章时，尽量选择从官方网站进行检索资料。比如我们要获取一个公司的财务信息，我们最专业的做法就是通过其<strong>官方网站</strong>查找财务数据，学习 Python 也一样，我们可以查看它们<strong>官方文档</strong>。</p>
 <h2 id="搜索技巧助你效率满满">搜索技巧助你效率满满</h2>
 <p>总有人把某一类人称为大师，其实要想成为大师并不难，大师无非就是在做好基础的工作的同时也掌握了一些进阶的方法，使其与你有那么一些差距。</p>

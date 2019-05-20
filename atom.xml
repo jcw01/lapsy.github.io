@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lapsy.xyz</id>
     <title>Lapsy</title>
-    <updated>2019-05-18T14:44:15.746Z</updated>
+    <updated>2019-05-20T07:09:33.494Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lapsy.xyz"/>
     <link rel="self" href="https://lapsy.xyz/atom.xml"/>
@@ -11,18 +11,49 @@
     <icon>https://lapsy.xyz/favicon.ico</icon>
     <rights>All rights reserved 2019, Lapsy</rights>
     <entry>
-        <title type="html"><![CDATA[匆匆那年，我迈入HKC,如今我要毕业了]]></title>
-        <id>https://lapsy.xyz/post/hkcschool</id>
-        <link href="https://lapsy.xyz/post/hkcschool">
+        <title type="html"><![CDATA[找到你想要的，让你的搜索更精确]]></title>
+        <id>https://lapsy.xyz/post/searchway.lapsy.xyz</id>
+        <link href="https://lapsy.xyz/post/searchway.lapsy.xyz">
         </link>
-        <updated>2019-05-18T14:03:12.000Z</updated>
-        <content type="html"><![CDATA[<p>下午1点走下讲台的那一刻，我顺利完成了答辩，这也意味着我离毕业已经近了一步了。匆匆那年，2015年9月3日，我和父亲第一次离开浙江省，来到了海南这个陌生的城市，现在回想起来，刚到海南是我堂哥的战友迎接的我们，带我们一起在桂林洋的海鲜大排档吃了宵夜。然后第二天就是开始军训了……
-想不出用什么华丽的辞藻来描述这大学四年的生活，我想用几个词简单概括一下吧。
-<strong>1. 习惯</strong>
-<strong>习惯了高温。</strong> 海南每天 30度的🔅 ，要想在海南活下去，你必须习惯酷暑，必须习惯每天吹空调。于是乎，每次寒假回家，面对家乡0度以下的寒冷，我总是会感冒。
-<strong>习惯了独立。</strong> 这里的独立并不是单纯生活上的独立，更多的是思想上的独立。说实话，生活了大学四年的学校并不是一个很好的学校，在教学和生活上都存在着很多槽点，或许有人会说既来之则安之，然后浑浑噩噩，母校就是必须值得尊敬和爱戴的。但我觉得该吐槽还是要吐槽，这大学四年我因为各种考试和面试的原因，去过不少学校，了解过一些其他学校的情况，我看到巨大的差距。我始终认为，面对差距我们的态度不应该是保持所谓的&quot;中立&quot;和所谓的&quot;既来之则安之&quot;的顽固不独立的思想，你连想改变的想法都没有，你还谈何之后的行动。</p>
-<p><strong>2. 目标</strong>
-说实话，我从成绩上来说我就是一个浑浑噩噩混了四年的大学学渣，成绩在年级中游，四年没有拿过一次奖学金。但我刚初入大学是就设立了两个终极的小目标：<strong>进入互联网企业或者进入银行工作。</strong> 为了进入互联网企业我参与了各种互联网的App 评测征文，混迹于各种互联网社区，也取得了包括腾讯 App 评测官优胜奖和帮助 Beautiful 科技自媒体平台活跃于各个平台。同时也在大二的暑假获得了魅族实习生的Offer(后因为家里有事没去成）。后来经过深思熟虑觉得互联网日夜加班熬夜的生活真的不适合我（另外包括我心仪的魅族越来越走下坡路），我觉得进入互联网企业真的不契合实际。</p>
+        <updated>2019-05-20T07:02:53.000Z</updated>
+        <content type="html"><![CDATA[<p>不管是学习和工作，我们都会依靠<strong>搜索</strong>来索取我们需要的先前不了解的知识。
+但在大多数的人眼里，搜索不就是键入<strong>关键词，敲击回车键</strong>嚒。这样的结果就是没有搜到自己想要的，还看了一些不该看的广告，甚至还不经意下载了一些附带的流氓软件。</p>
+<p>作为 21 世纪的原住民，我们应该掌握一些更为<strong>高级</strong>与<strong>高效</strong>的搜索技巧。</p>
+<h2 id="搜索好习惯必须有">搜索好习惯，必须有</h2>
+<p>磨刀不误砍柴工，在真正接触实质的搜索技巧之前我们先做一点“磨刀”工作——<strong>三个搜索小习惯</strong></p>
+<p>1.<strong>用英文搜索</strong>:我们为了搜索就是为了找到更准确和权威的资料，用英文搜索能够把检索的范围扩展到全世界各地。同时用因为搜索能够避免因为英译过来，资料表达的差距而导致搜索结果的偏差。</p>
+<p>2.<strong>使用靠谱的搜索引擎</strong>：工欲善其事，必先利器。在单纯的浏览器搜索引擎方面，我个人推荐**<a href="https://www.google.co">谷歌</a><strong>、</strong><a href="https://duckduckgo.com/">DuckDuckGo</a><strong>、</strong><a href="https://mijisou.com/">秘迹</a>**。 另外在其他领域可以选择更为专业的搜索源，比如去查找字体可以去<a href="http://www.qiuziti.com/">求字体</a>和<a href="https://www.likefont.com/">识字体</a>;查开发编程电子书可以去<a href="https://love2.io/">Love2</a>……</p>
+<p>3.<strong>官网网站和文档更靠谱</strong>:在写一些正式的文章需要一些较为正式的文章时，尽量选择从官方网站进行检索资料。比如我们要获取一个公司的财务信息，我们最专业的做法就是通过其<strong>官方网站</strong>查找财务数据，学习 Python 也一样，我们可以查看它们<strong>官方文档</strong>。</p>
+<h2 id="搜索技巧助你效率满满">搜索技巧助你效率满满</h2>
+<p>总有人把某一类人称为大师，其实要想成为大师并不难，大师无非就是在做好基础的工作的同时也掌握了一些进阶的方法，使其与你有那么一些差距。</p>
+<h3 id="自定义工具">自定义工具</h3>
+<p>不知道大家在使用 Google 搜索引擎的时候有没有这样一个工具，它包含了以下信息：</p>
+<ul>
+<li>时间:搜索结果的时间范围</li>
+<li>精确性:模糊搜索与<em>准确匹配</em></li>
+<li>语言:搜索结果的语言</li>
+<li>国家:搜索结果的来源范围</li>
+<li></li>
+</ul>
+<p><img src="https://i.loli.net/2019/05/20/5ce251f304d1354561.png" alt="google 搜索工具.png">
+<img src="https://i.loli.net/2019/05/20/5ce251f33677c14934.png" alt="google 搜索工具2.png"></p>
+<p>大家可以根据自己的搜索需求，在以上的工具之中进行点选，找到更精确的结果。</p>
+<p>另外在搜索视频和图片时，搜索的<strong>自定义</strong>更明显。你可以自己选择其时长、质量、来源、大小等等因素。
+<img src="https://i.loli.net/2019/05/20/5ce252142722078272.png" alt="google 搜索工具3.png"></p>
+<h3 id="语法搜索">语法搜索</h3>
+<p>语法搜索个人理解就是将搜索模板化，使其更好的被搜索引擎所识别。我介绍几个我最常用的语法搜索：</p>
+<p>1.<code>关键词 filetype:文件格式</code></p>
+<p>这个搜索语法经常被用来搜索指定格式的文档，主要的应用场景有:需要查找有关部门的法规、文章文档等等。
+<img src="https://i.loli.net/2019/05/20/5ce25223db00535446.png" alt="关键词 filetype.png"></p>
+<p>2.<code>关键词 数字 .. 数字</code></p>
+<p>这个语法主要是用来搜索指定数字范围内的搜结果，用它来搜索指定价格范围的产品真的很高效，比如 <em>iphone xr $800..$999</em>来筛选价格在$800..$999的iPhone XR
+<img src="https://i.loli.net/2019/05/20/5ce2524a1295d71986.png" alt="微信图片_20190520150732.png"></p>
+<p>3.<code>site:网址 关键词</code>
+这个语法主要是把搜索结果限定在某个网站，一次来限定搜索的准确性。比如<strong>site:youtube.com  gopro 7</strong>
+<img src="https://i.loli.net/2019/05/20/5ce2524a75b1b65129.png" alt="微信图片_20190520150738.png"></p>
+<p>更多Google语法可以查阅<a href="(https://support.google.com/websearch/answer/2466433)">官方文档</a></p>
+<h2 id="说在最后">说在最后</h2>
+<p>在这个快节奏、时间不够用的时代，如果快速、高效的完成一项工作是我们未来亟需去反思和解决的，这篇文章只是从一个很小的维度进行了小小展示，希望大家在日程生活和工作中把提高效率作为自己的目标之一。</p>
 ]]></content>
     </entry>
     <entry>

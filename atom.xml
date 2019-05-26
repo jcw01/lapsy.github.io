@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lapsy.xyz</id>
     <title>Lapsy</title>
-    <updated>2019-05-21T01:47:41.747Z</updated>
+    <updated>2019-05-26T15:03:50.959Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lapsy.xyz"/>
     <link rel="self" href="https://lapsy.xyz/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://lapsy.xyz/favicon.ico</icon>
     <rights>All rights reserved 2019, Lapsy</rights>
     <entry>
-        <title type="html"><![CDATA[安全、快速找出那个删了你微信的狼人]]></title>
+        <title type="html"><![CDATA[快速找出那个删了你微信的狼人]]></title>
         <id>https://lapsy.xyz/post/searchwechat</id>
         <link href="https://lapsy.xyz/post/searchwechat">
         </link>

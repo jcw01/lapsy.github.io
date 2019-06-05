@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lapsy.xyz</id>
     <title>Lapsy</title>
-    <updated>2019-05-26T15:03:50.959Z</updated>
+    <updated>2019-06-05T04:47:36.655Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lapsy.xyz"/>
     <link rel="self" href="https://lapsy.xyz/atom.xml"/>
@@ -10,6 +10,82 @@
     <logo>https://lapsy.xyz/images/avatar.png</logo>
     <icon>https://lapsy.xyz/favicon.ico</icon>
     <rights>All rights reserved 2019, Lapsy</rights>
+    <entry>
+        <title type="html"><![CDATA[Apple 更新固件与描述文件大全一览]]></title>
+        <id>https://lapsy.xyz/post/appleupdat</id>
+        <link href="https://lapsy.xyz/post/appleupdat">
+        </link>
+        <updated>2019-06-05T04:03:05.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://api.kejiweixun.com/watchOS_6_Beta_Profile.mobileconfig">watchOS 描述文件</a></li>
+</ul>
+<p>*[macOS描述文件] (https://api.kejiweixun.com/macOSCatalinaDeveloperBeta.dmg)</p>
+<p><strong>iPadOS</strong></p>
+<ul>
+<li>
+<p>[iPad Pro  11 提取码26p9]
+(https://pan.baidu.com/s/1d2cebG7i9hhAphW8mYgaXw)</p>
+</li>
+<li>
+<p>[iPad Pro 12.9 提取码26p9]
+(https://pan.baidu.com/s/1d2cebG7i9hhAphW8mYgaXw)</p>
+</li>
+<li>
+<p>[iPad Pro  10.5 提取码nfs5]
+(https://pan.baidu.com/s/1-oCaRF2XFJE9ZbeBbIGDtw)</p>
+</li>
+<li>
+<p>[iPad Pro  12.9 提取码nfs5]
+(https://pan.baidu.com/s/1-oCaRF2XFJE9ZbeBbIGDtw)</p>
+</li>
+<li>
+<p>[iPad 5th 提取码aqrg]
+(https://pan.baidu.com/s/1gSPvi0qfAVacY87JjTlxzw)</p>
+</li>
+<li>
+<p>[iPad 6th 提取码aqrg]
+(https://pan.baidu.com/s/1gSPvi0qfAVacY87JjTlxzw)</p>
+</li>
+<li>
+<p>[iPad mini  5th 提取码4iy0]
+(https://pan.baidu.com/s/1g3AgB0HvM0eIYaz9uGwmXA)</p>
+</li>
+<li>
+<p>[iPad Air 3rd 提取码4iy0]
+(https://pan.baidu.com/s/1g3AgB0HvM0eIYaz9uGwmXA)</p>
+</li>
+<li>
+<p><a href="https://pan.baidu.com/s/1zX9t0mfVMAmDSDGLl8rmcQ">iPad mini  4提取码u35d</a></p>
+</li>
+<li>
+<p><a href="https://pan.baidu.com/s/1zX9t0mfVMAmDSDGLl8rmcQ">iPad Air2 提取码u35d</a></p>
+</li>
+<li>
+<p>[iPad  Pro  9.7 提取码6udx]
+(https://pan.baidu.com/s/1JNKNMSIGM8CQv7sVK6dPBQ)</p>
+</li>
+<li>
+<p>[iPad  Pro  12.9提取码6udx]
+(https://pan.baidu.com/s/1R0r2I1LfQcaVFBi_i4sbJQ)</p>
+</li>
+</ul>
+<p><strong>iOS 13</strong>
+*<a href="https://pan.baidu.com/s/1WW9ogiavyRzW1BbGRUxhpA">iPhone XS   Max 提取码4z7p</a></p>
+<p>*<a href="https://pan.baidu.com/s/1WW9ogiavyRzW1BbGRUxhpA">iPhone XS 提取码4z7p</a></p>
+<p>*[iPhone XR 提取码n29w]（https://pan.baidu.com/s/1XhlOBDqpRJkO0HzDIssieA）</p>
+<p>*[iPhone X 提取码3ofg]（https://pan.baidu.com/s/1YlIZbn7-_arClSNLXXWCnA）</p>
+<p>*[iPhone 8 提取码7ynj]（https://pan.baidu.com/s/1Ls97QVj4WdbMl6fhO7AaZw）</p>
+<p>*[iPhone 8  Plus 提取码ewgv]（https://pan.baidu.com/s/13TUxxhumCC549GtvKoCSUw）</p>
+<p>*[iPhone 7 提取码7ynj]（https://pan.baidu.com/s/1Ls97QVj4WdbMl6fhO7AaZw）</p>
+<p>*[iPhone 7  Plus 提取码ewgv]（https://pan.baidu.com/s/13TUxxhumCC549GtvKoCSUw）</p>
+<p>*[iPhone 6s 提取码3g08]
+（https://pan.baidu.com/s/13TUxxhumCC549GtvKoCSUw）</p>
+<p>*[iPhone 6s plus  提取码3g08]
+（https://pan.baidu.com/s/13TUxxhumCC549GtvKoCSUw）</p>
+<p>*[Touch   7th Gen  提取码6swc]
+（https://pan.baidu.com/share/init?surl=vLLMk1qrrpJ3we81FbofUA）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[快速找出那个删了你微信的狼人]]></title>
         <id>https://lapsy.xyz/post/searchwechat</id>
@@ -219,17 +295,6 @@
 <p>大多数人对于公共话题止步于「已阅」，默默观看，不讨论不反驳不转发……在泛娱乐化的社交与舆论环境，麻痹意识是最好的稳定。所有注意力都放在玩梗、明星上，很少人去正视一些不公、司法、法制（治）、民主等严肃性问题……<a href="https://mp.weixin.qq.com/s/im1VL0mdaozc65edveS_Ug">相关阅读</a></p>
 </li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vlog 加字幕太麻烦，不妨试试这个自动加字幕工具]]></title>
-        <id>https://lapsy.xyz/post/vlog-jia-zi-mu-tai-ma-fan-bu-fang-shi-shi-zhe-ge-zi-dong-jia-zi-mu-gong-ju</id>
-        <link href="https://lapsy.xyz/post/vlog-jia-zi-mu-tai-ma-fan-bu-fang-shi-shi-zhe-ge-zi-dong-jia-zi-mu-gong-ju">
-        </link>
-        <updated>2019-04-29T12:12:50.000Z</updated>
-        <content type="html"><![CDATA[<p>如果你心血来潮想做个小视频或者拍个 Vlog ,拍完之后觉得加字幕真的好麻烦，于是开始各种加字幕的服务，比如说讯飞和网易，可以把视频导出 SRT 字幕文件，然后下载字幕文件把它导入到 Pr中，对于我这种视频小白来说，有点头疼的，而且讯飞和网易价格也比较贵，所以我选择了它👇</p>
-<p><a href="https://www.youtube.com/watch?v=xP9ctASqvGk&amp;t=35s">突字幕的介绍</a>
-<a href="https://2zimu.niucodata.com/">突字幕官网</a></p>
 ]]></content>
     </entry>
 </feed>

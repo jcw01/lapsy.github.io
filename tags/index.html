@@ -1,132 +1,138 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Lapsy</title>
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562247357596">
+    <meta charset="utf-8" >
+
+<title>标签列表 | Lapsy</title>
+<meta name="description" content="多一点思考，多一点成长">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562247515467">
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139225386-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139225386-1');
-</script>
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://lapsy.xyz">
-  <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562247357596" alt="">
-  </a>
-  <h1 class="site-title">
-    Lapsy
-  </h1>
-  <p class="site-description">
-    多一点思考，多一点成长
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/jcw01" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/zjfy1231" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.weibo.com/6261205684/profile?topnav=1&amp;wvr=6&amp;is_all=1" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.zhihu.com/people/jin-cheng-wei-89-93/activities" target="_blank">
-          <i class="fab fa-zhihu"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.facebook.com/profile.php?id=100010774247229" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-      
-    
-  </div>
-</div>
+    <div id="app" class="main">
 
-
-        <div class="tags-container">
-          
-            <a class="tag" href="https://lapsy.xyz/tag/skill">技能</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/wechat">微信</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/Q_Eym9CWd">App</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/aQ4vCqoUE">思考</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/L7wdz06Ks">职场</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/_6sJ3jJud">记录</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/wallpaper">壁纸</a>
-          
-            <a class="tag" href="https://lapsy.xyz/tag/AR7-Wallpaer">AR7</a>
-          
-        </div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://lapsy.xyz">
+        <img src="https://lapsy.xyz/images/avatar.png?v=1562247515467" class="site-logo">
+        <h1 class="site-title">Lapsy</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      多一点思考，多一点成长
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="tag-list-title">标签列表</h2>
+          <div class="tags-container">
+            
+              <a class="tag" href="https://lapsy.xyz/tag/skill">技能</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/wechat">微信</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/Q_Eym9CWd">App</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/aQ4vCqoUE">思考</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/L7wdz06Ks">职场</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/_6sJ3jJud">记录</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/wallpaper">壁纸</a>
+            
+              <a class="tag" href="https://lapsy.xyz/tag/AR7-Wallpaer">AR7</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>

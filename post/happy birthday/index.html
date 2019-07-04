@@ -1,124 +1,110 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>生日已经只是个标记了 | Lapsy</title>
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562246599186">
+<meta name="description" content="多一点思考，多一点成长">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562246640393">
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139225386-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139225386-1');
-</script>
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://lapsy.xyz">
-  <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562246599186" alt="">
-  </a>
-  <h1 class="site-title">
-    Lapsy
-  </h1>
-  <p class="site-description">
-    多一点思考，多一点成长
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/jcw01" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/zjfy1231" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.weibo.com/6261205684/profile?topnav=1&amp;wvr=6&amp;is_all=1" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.zhihu.com/people/jin-cheng-wei-89-93/activities" target="_blank">
-          <i class="fab fa-zhihu"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.facebook.com/profile.php?id=100010774247229" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lapsy.xyz">
+        <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562246640393" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lapsy.xyz">
+        <h1 class="site-title">Lapsy</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              生日已经只是个标记了
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-08 ·
-              </time>
-              
-                <a href="https://lapsy.xyz/tag/_6sJ3jJud" class="post-tags">
-                  # 记录
-                </a>
-              
+          
+            <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/08/5cd1b97517eb6.jpg')">
             </div>
+          
+          <h2 class="post-title">生日已经只是个标记了</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-08</span>
             
-              <div class="post-feature-image" style="background-image: url('https://i.loli.net/2019/05/08/5cd1b97517eb6.jpg')">
-              </div>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://lapsy.xyz/tag/_6sJ3jJud">
+                    记录
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content">
-              <p>曾经的我在生日前总会期待着 5月8日 0：00 点的到来，然后默默的在朋友圈、QQ空间发上一句鸡汤和一个生日蛋糕🎂emoji ，可能随着年龄的增大，我几乎已经好几年没有过过生日了，没有了蛋糕，没有了人多的庆祝，生日就是一个普通的日子 …… 时间久了，也没有人记得你的生日了 ……</p>
+          </div>
+          <div class="post-content">
+            <p>曾经的我在生日前总会期待着 5月8日 0：00 点的到来，然后默默的在朋友圈、QQ空间发上一句鸡汤和一个生日蛋糕🎂emoji ，可能随着年龄的增大，我几乎已经好几年没有过过生日了，没有了蛋糕，没有了人多的庆祝，生日就是一个普通的日子 …… 时间久了，也没有人记得你的生日了 ……</p>
 <p>今天是我的生日，没有了往日的期待，竟在忙碌改文章中差点忘记生日到了，还是电信的短信提醒我才让我记起来 …… 给我发祝福的也几乎没有，只有我姐问我要什么礼物 …… 说实话我记得不少人的生日，我也会送去祝福，但可能我就是天生孤独。其实也没什么，做好自己，这些都不重要。今年的生日愿望：</p>
 <ol>
 <li>希望爸妈、姐姐身体健康。</li>
@@ -126,58 +112,86 @@
 </ol>
 <p>好了，突然想到的就写到这里吧。该睡觉了！</p>
 
-            </div>
-          </article>
+          </div>
         </div>
-    
+
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://lapsy.xyz/post/hkc-school">
+            <a class="purple-link" href="https://lapsy.xyz/post/hkc-school">
               <h3 class="post-title">
-                笑着说再见 ……
+                下一篇：笑着说再见 ……
               </h3>
             </a>
-          </div>  
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      
 
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '6edca5e7ebc16a995ef4',
-    clientSecret: '7b1fdb165e0b68a60fbaec42df763200860efbba',
-    repo: 'lapsy.github.io',
-    owner: 'lapsy',
-    admin: ['lapsy'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
+      <div class="site-footer">
+  <div class="slogan">多一点思考，多一点成长</div>
+  <div class="social-container">
     
-        <div class="site-footer">
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '6edca5e7ebc16a995ef4',
+        clientSecret: '7b1fdb165e0b68a60fbaec42df763200860efbba',
+        repo: 'lapsy.github.io',
+        owner: 'lapsy',
+        admin: ['lapsy'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

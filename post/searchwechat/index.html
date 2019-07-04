@@ -1,128 +1,117 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>快速找出那个删了你微信的狼人 | Lapsy</title>
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562246599186">
+<meta name="description" content="多一点思考，多一点成长">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562246640393">
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139225386-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139225386-1');
-</script>
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://lapsy.xyz">
-  <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562246599186" alt="">
-  </a>
-  <h1 class="site-title">
-    Lapsy
-  </h1>
-  <p class="site-description">
-    多一点思考，多一点成长
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/jcw01" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/zjfy1231" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.weibo.com/6261205684/profile?topnav=1&amp;wvr=6&amp;is_all=1" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.zhihu.com/people/jin-cheng-wei-89-93/activities" target="_blank">
-          <i class="fab fa-zhihu"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.facebook.com/profile.php?id=100010774247229" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lapsy.xyz">
+        <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562246640393" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lapsy.xyz">
+        <h1 class="site-title">Lapsy</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              快速找出那个删了你微信的狼人
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-21 ·
-              </time>
-              
-                <a href="https://lapsy.xyz/tag/skill" class="post-tags">
-                  # 技能
-                </a>
-              
-                <a href="https://lapsy.xyz/tag/wechat" class="post-tags">
-                  # 微信
-                </a>
-              
+          
+            <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/21/5ce35839c79b955978.jpg')">
             </div>
+          
+          <h2 class="post-title">快速找出那个删了你微信的狼人</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-21</span>
             
-              <div class="post-feature-image" style="background-image: url('https://i.loli.net/2019/05/21/5ce35839c79b955978.jpg')">
-              </div>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://lapsy.xyz/tag/skill">
+                    技能
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://lapsy.xyz/tag/wechat">
+                    微信
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content">
-              <p>大部分人查看是否被好友删除微信，总会去做一些扫码验证之类的操作。其实，这是卖自己隐私。今天给大家分享两个真正比较实用的方法。</p>
+          </div>
+          <div class="post-content">
+            <p>大部分人查看是否被好友删除微信，总会去做一些扫码验证之类的操作。其实，这是卖自己隐私。今天给大家分享两个真正比较实用的方法。</p>
 <p><strong>转账法</strong></p>
 <p>转账给对方（不是真转），注意要设置额度小一点儿，以防刷脸直接支付了。🤫如果对方是你的好友，接下来就会出现让你输密码的页面，关掉就可以了。如果对方把你删了，会提示不是你好友转不了。</p>
 <p><img src="https://i.loli.net/2019/05/21/5ce35736d8c0c72458.jpg" alt="1.jpg"></p>
@@ -132,58 +121,86 @@
 <img src="https://i.loli.net/2019/05/21/5ce35736e1ef160805.jpg" alt="2.jpg"></p>
 <p>这篇文章没啥技术含量，就是好玩和比较实用。</p>
 
-            </div>
-          </article>
+          </div>
         </div>
-    
+
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://lapsy.xyz/post/flychat">
+            <a class="purple-link" href="https://lapsy.xyz/post/flychat">
               <h3 class="post-title">
-                聊聊「飞聊」这个 App 
+                下一篇：聊聊「飞聊」这个 App 
               </h3>
             </a>
-          </div>  
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      
 
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '6edca5e7ebc16a995ef4',
-    clientSecret: '7b1fdb165e0b68a60fbaec42df763200860efbba',
-    repo: 'lapsy.github.io',
-    owner: 'lapsy',
-    admin: ['lapsy'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
+      <div class="site-footer">
+  <div class="slogan">多一点思考，多一点成长</div>
+  <div class="social-container">
     
-        <div class="site-footer">
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '6edca5e7ebc16a995ef4',
+        clientSecret: '7b1fdb165e0b68a60fbaec42df763200860efbba',
+        repo: 'lapsy.github.io',
+        owner: 'lapsy',
+        admin: ['lapsy'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

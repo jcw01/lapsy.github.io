@@ -1,15 +1,18 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>🈷4 月总结📋 | Lapsy</title>
 <meta name="description" content="多一点思考，多一点成长">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562247515467">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562247579065">
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
 
@@ -23,88 +26,92 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
 
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://lapsy.xyz">
-        <img src="https://lapsy.xyz/images/avatar.png?v=1562247515467" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lapsy.xyz">
+        <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562247579065" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lapsy.xyz">
         <h1 class="site-title">Lapsy</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      多一点思考，多一点成长
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">🈷4 月总结📋</h2>
-            <div class="post-date">2019-05-01</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/01/5cc99ac0cc578.jpg')">
+            </div>
+          
+          <h2 class="post-title">🈷4 月总结📋</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-01</span>
             
-              <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/01/5cc99ac0cc578.jpg')">
-              </div>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://lapsy.xyz/tag/aQ4vCqoUE">
+                    思考
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://lapsy.xyz/tag/_6sJ3jJud">
+                    记录
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content">
-              <p>📅今天是五月的第一天，今天拍了个<a href="https://v.vuevideo.net/share/post/-1911733859257525452">📹</a>，许了个小愿望:望事事顺心💪</p>
+          </div>
+          <div class="post-content">
+            <p>📅今天是五月的第一天，今天拍了个<a href="https://v.vuevideo.net/share/post/-1911733859257525452">📹</a>，许了个小愿望:望事事顺心💪</p>
 <p>💬借着这个机会，对过去的四月做个总结吧❤四月其实没什么大事发生在自己的身上，主要是去参加了农行第一期的 15 天培训🛠。同时可能因为太累了，生病犯了急性喉炎，独自一人去了医院💉</p>
 <p><img src="https://i.loli.net/2019/05/01/5cc996a70625b.jpg" alt="数钱"></p>
 <p><img src="https://i.loli.net/2019/05/01/5cc996f169ab1.jpg" alt="吃的还不错"></p>
@@ -114,50 +121,49 @@
 👥15 天的培训不短也不长，很快就结束了，很开心自己在最后的理论考核中成为不要补考 11 人中的幸运儿。15 天培训中，见识了很多留学生大佬和研究生大佬，而我可能是他们中学历最低的，在感叹他们能力的同时也看到了差距：我缺少上进心。</p>
 <p>📣你我共勉，望未来更好⛽</p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://lapsy.xyz/tag/aQ4vCqoUE" class="tag">
-                    思考
-                  </a>
-                
-                  <a href="https://lapsy.xyz/tag/_6sJ3jJud" class="tag">
-                    记录
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://lapsy.xyz/post/visual-stripes-wallpaper">
-                  <h3 class="post-title">
-                    Visual Stripes Wallpaper
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://lapsy.xyz/post/visual-stripes-wallpaper">
+              <h3 class="post-title">
+                下一篇：Visual Stripes Wallpaper
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">多一点思考，多一点成长</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</div>
+
+
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 

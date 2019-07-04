@@ -1,15 +1,18 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>笑着说再见 …… | Lapsy</title>
 <meta name="description" content="多一点思考，多一点成长">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562247515467">
+<link rel="shortcut icon" href="https://lapsy.xyz/favicon.ico?v=1562247579065">
 <link rel="stylesheet" href="https://lapsy.xyz/styles/main.css">
 
 
@@ -23,88 +26,85 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
 
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://lapsy.xyz">
-        <img src="https://lapsy.xyz/images/avatar.png?v=1562247515467" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lapsy.xyz">
+        <img class="avatar" src="https://lapsy.xyz/images/avatar.png?v=1562247579065" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lapsy.xyz">
         <h1 class="site-title">Lapsy</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      多一点思考，多一点成长
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">笑着说再见 ……</h2>
-            <div class="post-date">2019-05-05</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/05/5cce0a32efff2.jpg')">
+            </div>
+          
+          <h2 class="post-title">笑着说再见 ……</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-05</span>
             
-              <div class="feature-container" style="background-image: url('https://i.loli.net/2019/05/05/5cce0a32efff2.jpg')">
-              </div>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://lapsy.xyz/tag/_6sJ3jJud">
+                    记录
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content">
-              <p>现在正躺在机场的休息室里，等会儿 8点多的飞机将会去到海南，去到那个我口中“垃圾”的学校，或许也是我最后一个月吐槽它垃圾了。</p>
+          </div>
+          <div class="post-content">
+            <p>现在正躺在机场的休息室里，等会儿 8点多的飞机将会去到海南，去到那个我口中“垃圾”的学校，或许也是我最后一个月吐槽它垃圾了。</p>
 <p><img src="https://i.loli.net/2019/05/05/5cce09321eb2f.jpg" alt="微信图片_20190505053810 (1).jpg"></p>
 <p>说实话这次回去是有不少期待的，期待那些人，那些事，你们都变了嚒？</p>
 <ul>
@@ -116,46 +116,49 @@
 <p><img src="https://i.loli.net/2019/05/05/5cce094d3a043.jpg" alt="微信图片_20190505053819 (1).jpg"></p>
 <p>记得过去三年我都是寝室最后一个回家的，我几乎都是看着他们走完了我才回家（一方面是因为机票）。那种感觉有种母亲目送子女后的心安与踏实，也有自己一个人孤独与伤感。接下来的一个月后的离校，我希望我是最早离开的，我不想有伤感的感觉，让美好都留在彼此的内心吧，对于接下来的一个月里不想太多的喧闹或者太多的纪念，只想默默的陪伴，可以吹吹牛，但不宜太过喧闹与深刻，我怕到时候离开时太过伤感 …… 哎 ……</p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://lapsy.xyz/tag/_6sJ3jJud" class="tag">
-                    记录
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://lapsy.xyz/post/April-summary">
-                  <h3 class="post-title">
-                    🈷4 月总结📋
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://lapsy.xyz/post/April-summary">
+              <h3 class="post-title">
+                下一篇：🈷4 月总结📋
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">多一点思考，多一点成长</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</div>
+
+
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
